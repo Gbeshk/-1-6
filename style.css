@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: lightgrey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 736px;
+  height: 512px;
+  background-color: white;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.blue {
+  width: 368px;
+  height: 512px;
+  background-color: hsla(252, 100%, 63%, 1);
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 38px;
+  flex-direction: column;
+}
+.result {
+  color: lightblue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 31px;
+  width: 125px;
+}
+.circle {
+  background-color: hsla(256, 71%, 46%, 1);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 28px;
+  width: 83px;
+  height: 42px;
+}
+.comment {
+  color: lightblue;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 14px;
+  width: 260px;
+  height: 69px;
+}
+.score {
+  color: white;
+  text-align: center;
+  width: 81px;
+  height: 72px;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 100% */
+}
+.total {
+  color: lightblue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 52px;
+  height: 23px;
+  text-align: center;
+}
+.summary {
+  color: hsla(223, 30%, 27%, 1);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 38px;
+  margin-left: 40px;
+  height: 31px;
+  width: 104px;
+}
+.allresults {
+  display: flex;
+  flex-direction: column;
+}
+.differentscores {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+#first {
+  background-color: rgb(92, 63, 63);
+  margin-top: 28px;
+}
+#second {
+  background-color: rgb(170, 147, 104);
+  margin-top: 16px;
+}
+#third {
+  background-color: rgb(50, 74, 68);
+  margin-top: 16px;
+}
+#fourth {
+  background-color: rgb(133, 145, 235);
+  margin-top: 16px;
+}
+.iconbox {
+  display: flex;
+  flex-direction: row;
+}
+.reaction {
+  color: var(--Red, #f55);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 12px;
+}
+.yourscore {
+  color: var(--Dark-Navy, #17203a);
+  text-align: right;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fullscore {
+  color: var(--Dark-Navy, #6c717d);
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.memory {
+  color: var(--Yellow, #ffb21e);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 12px;
+}
+.verbal {
+  color: var(--Green, #00bb8f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 12px;
+}
+.visual {
+  color: var(--Blue, #1125d6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 12px;
+}
+button {
+  width: 288px;
+  height: 56px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  border-radius: 128px;
+  background-color: var(--Dark-Navy, #303B59);
+  margin-top: 41px;
+  margin-left: 40px;
+}
